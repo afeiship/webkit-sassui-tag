@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-tag",
+  "description": "Webkit sass ui module for tag.",
+  "main": [
+    "dist/webkit-sassui-tag.css",
+    "dist/webkit-sassui-tag.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "tag"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

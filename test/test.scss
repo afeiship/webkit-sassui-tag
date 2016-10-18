@@ -1,0 +1,13 @@
+@import "../dist/webkit-sassui-tag.scss";
+.test-webkit-sassui-tag{
+  @include webkit-sassui-tag();
+}
+
+
+.test-webkit-sassui-tag2{
+  @include webkit-sassui-tag(#ccc);
+}
+
+.test-webkit-sassui-tag3{
+  @include webkit-sassui-tag(#f00);
+}
