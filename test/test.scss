@@ -1,13 +1,26 @@
 @import "../dist/webkit-sassui-tag.scss";
 .test-webkit-sassui-tag{
-  @include webkit-sassui-tag();
+  @include webkit-sassui-tag-outline();
 }
 
 
 .test-webkit-sassui-tag2{
-  @include webkit-sassui-tag(#ccc);
+  @include webkit-sassui-tag-outline(#ccc);
 }
 
 .test-webkit-sassui-tag3{
-  @include webkit-sassui-tag(#f00);
+  @include webkit-sassui-tag-outline(#f00);
+}
+
+.test-fill1{
+  @include webkit-sassui-tag-fill();
+}
+.test-fill2{
+  @include webkit-sassui-tag-fill(#f00);
+}
+.test-fill3{
+  @include webkit-sassui-tag-fill(#000);
+}
+.test-fill4{
+  @include webkit-sassui-tag-fill(green);
 }
