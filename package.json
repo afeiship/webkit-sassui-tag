@@ -10,6 +10,7 @@
   "scripts": {
     "build": "gulp"
   },
+  "main": "dist/webkit-sassui-tag.scss",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
